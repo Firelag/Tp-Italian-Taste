@@ -112,6 +112,13 @@ body{
             display: flex;
             width: 80%;
             margin: auto;
+            justify-content: space-between;
+
+            .groupe{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly
+            }
         }
     }
     

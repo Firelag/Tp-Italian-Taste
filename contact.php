@@ -9,8 +9,13 @@
     <div class="flex">
         <div>
             <h3>Nous contacter</h3>
-            <div>
-                <p>ItalianTaste@gmail.com</p>
+            <div class="groupe">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p style="width: 55%;">ItalianTaste@gmail.com</p>
+            </div>
+            <div class="groupe">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>02 46 37 93 19</p>
             </div>
         </div>
         

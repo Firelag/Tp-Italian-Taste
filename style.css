@@ -83,6 +83,12 @@ body .contact .flex {
   display: flex;
   width: 80%;
   margin: auto;
+  justify-content: space-between;
+}
+body .contact .flex .groupe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 body footer {
   width: 80%;
