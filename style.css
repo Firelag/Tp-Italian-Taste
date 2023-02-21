@@ -48,4 +48,18 @@ body .centre .bouton {
   color: black;
   border: 1px solid black;
   cursor: pointer;
+}
+body footer {
+  width: 80%;
+  margin: auto;
+}
+body footer .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .flex .res .logo {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */

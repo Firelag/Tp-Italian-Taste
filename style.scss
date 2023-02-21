@@ -59,4 +59,25 @@ body{
                 cursor: pointer;
         }
     }
+
+
+
+    footer{
+        width: 80%;
+        margin: auto;
+        .flex{
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        .res{
+            .logo{
+                display: flex;
+                justify-content: space-evenly;
+                font-size: 2em;
+            }
+     
+           }
+        }
+    }
 }
