@@ -8,9 +8,18 @@ body {
   margin: 0;
 }
 body header {
-  display: flex;
+  text-align: center;
+}
+body header .menu-menu-1-container {
+  width: 80%;
+  margin: auto;
 }
 body header .menu-menu-1-container .menu {
   display: flex;
-  align-self: center;
+  list-style: none;
+  justify-content: space-evenly;
+}
+body header .menu-menu-1-container .menu .menu-item a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
