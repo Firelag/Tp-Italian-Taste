@@ -79,6 +79,11 @@ body #actu {
 body #actu article .attachment-post-thumbnail {
   text-align: center;
 }
+body .contact .flex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
 body footer {
   width: 80%;
   margin: auto;
