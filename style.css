@@ -26,7 +26,7 @@ body header .menu-menu-1-container .menu .menu-item a {
   font-size: 1.5em;
 }
 body .pagehero #hero {
-  height: 70vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,4 +62,7 @@ body footer .flex .res .logo {
   display: flex;
   justify-content: space-evenly;
   font-size: 2em;
+}
+body footer .flex .res .logo i {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

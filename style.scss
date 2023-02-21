@@ -33,7 +33,7 @@ body{
     }
     .pagehero{
         #hero{
-            height: 70vh;
+            height: 50vh;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -75,6 +75,9 @@ body{
                 display: flex;
                 justify-content: space-evenly;
                 font-size: 2em;
+                i{
+                    cursor: pointer;
+                }
             }
      
            }

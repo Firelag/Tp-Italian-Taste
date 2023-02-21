@@ -8,13 +8,14 @@
 
 
 <article> 
+    <!-- affiche l'image mise en avant     -->
+<?php the_post_thumbnail();?>
+<!-- fin affiche l'image mise en avant     -->
 <!-- affiche le contenu     -->
 <?php the_content(); ?>
 <!-- fin affiche le contenu     -->
 
-<!-- affiche l'image mise en avant     -->
-<?php the_post_thumbnail();?>
-<!-- fin affiche l'image mise en avant     -->
+
 
 <span><?php the_author();?></span>
 <span> <?php the_category();?></span>
