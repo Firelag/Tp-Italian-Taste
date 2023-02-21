@@ -77,6 +77,35 @@ body{
         }
     }
 
+    .irecettes{
+        
+           
+        width: 80%;
+        margin: auto;
+        .recette{
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+    
+            .ingred{
+                
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #actu{
+        width: 80%;
+        margin: auto;
+        article{
+            .attachment-post-thumbnail{
+                text-align: center;
+            }
+        }
+    }
+
 
 
     footer{

@@ -60,6 +60,25 @@ body #blog .container #allarticles .bgimg {
   background-size: cover;
   background-position: center;
 }
+body .irecettes {
+  width: 80%;
+  margin: auto;
+}
+body .irecettes .recette {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+body .irecettes .recette .ingred p {
+  width: 100%;
+}
+body #actu {
+  width: 80%;
+  margin: auto;
+}
+body #actu article .attachment-post-thumbnail {
+  text-align: center;
+}
 body footer {
   width: 80%;
   margin: auto;
