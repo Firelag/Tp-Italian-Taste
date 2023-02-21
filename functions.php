@@ -27,3 +27,14 @@ add_image_size( 'recentpost-thumb', 200, 200, false );
 add_image_size( 'couv', 1536, 1536, false );
 }
 //fin
+
+
+function nd_dosth_theme_setup() {
+
+    // Add <title> tag support
+    add_theme_support( 'title-tag' );  
+
+    // Add custom-logo support
+    add_theme_support( 'custom-logo' );
+
+}

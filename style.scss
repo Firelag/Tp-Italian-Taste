@@ -6,3 +6,16 @@ Author: jordan
 
 @import "variables";
 
+body{
+    margin: 0;
+    header{
+        display: flex;
+        .menu-menu-1-container{
+            .menu{
+                display: flex;
+                align-self: center;
+            }
+        }
+
+    }
+}
