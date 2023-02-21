@@ -60,6 +60,23 @@ body{
         }
     }
 
+    #blog{
+        width: 80%;
+        margin: auto;
+        font-size: 1.5em;
+        .container{
+            #allarticles{
+                .bgimg{
+                    height: 300px;
+                    width: 50%;
+                    background-size: cover;
+                    background-position: center;
+                   
+                }
+            }
+        }
+    }
+
 
 
     footer{

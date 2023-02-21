@@ -49,6 +49,17 @@ body .centre .bouton {
   border: 1px solid black;
   cursor: pointer;
 }
+body #blog {
+  width: 80%;
+  margin: auto;
+  font-size: 1.5em;
+}
+body #blog .container #allarticles .bgimg {
+  height: 300px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
 body footer {
   width: 80%;
   margin: auto;
