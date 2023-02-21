@@ -108,6 +108,7 @@ body{
     }
 
     .contact{
+        margin-top: 10%;
         .flex{
             display: flex;
             width: 80%;
@@ -119,6 +120,11 @@ body{
                 align-items: center;
                 justify-content: space-evenly
             }
+            
+            .wp-block-contact-form-7-contact-form-selector{
+                font-size: 1.2em;
+            }
+            
         }
     }
     

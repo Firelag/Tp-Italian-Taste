@@ -79,6 +79,9 @@ body #actu {
 body #actu article .attachment-post-thumbnail {
   text-align: center;
 }
+body .contact {
+  margin-top: 10%;
+}
 body .contact .flex {
   display: flex;
   width: 80%;
@@ -89,6 +92,9 @@ body .contact .flex .groupe {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+body .contact .flex .wp-block-contact-form-7-contact-form-selector {
+  font-size: 1.2em;
 }
 body footer {
   width: 80%;
