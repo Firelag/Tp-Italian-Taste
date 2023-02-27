@@ -68,6 +68,12 @@ body header .menu-menu-1-container .menu .menu-item a {
   color: black;
   font-size: 1.5em;
 }
+body header .menu-menu-1-container .menu .menu-item a:hover {
+  color: #9F2B25;
+}
+body header .icon:hover {
+  color: #9F2B25;
+}
 body .pagehero #hero {
   height: 50vh;
   background-repeat: no-repeat;
@@ -110,6 +116,9 @@ body .centre .taille .bouton {
   color: black;
   border: 1px solid black;
   cursor: pointer;
+}
+body .centre .taille .bouton:hover {
+  background-color: #111D1D;
 }
 body .propos {
   padding-top: 5%;
@@ -163,6 +172,9 @@ body .propos .flex .bouton {
     margin-bottom: 20%;
   }
 }
+body .propos .flex .bouton:hover {
+  background-color: #111D1D;
+}
 body .propos img {
   width: 80%;
 }
@@ -187,14 +199,9 @@ body #blog .container #allarticles .bgimg {
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 768px) {
-  body #blog .container #allarticles .bgimg {
-    width: 100%;
-  }
-}
 @media (max-width: 992px) {
   body #blog .container #allarticles .bgimg {
-    width: 70%;
+    width: 100%;
   }
 }
 body .irecettes {
@@ -269,12 +276,11 @@ body .contact .flex .groupe {
   }
 }
 body .contact .flex .groupe p {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 @media (max-width: 768px) {
   body .contact .flex .groupe p {
     margin-left: 10%;
-    font-size: 1.5em;
   }
 }
 @media (max-width: 768px) {
@@ -329,4 +335,8 @@ body footer .flex .res .logo {
 }
 body footer .flex .res .logo i {
   cursor: pointer;
+  color: black;
+}
+body footer .flex .res .logo i:hover {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */

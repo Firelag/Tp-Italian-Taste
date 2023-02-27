@@ -7,9 +7,9 @@
     <div class="res">
         <p>SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</p>
         <div class="logo">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
+        <a href="https://twitter.com/?lang=fr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/?hl=fr">  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 
 
         </div>
