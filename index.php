@@ -8,8 +8,12 @@
 </div>
 
 <section class="centre">
-    <h2>Bienvenue sur Italian Taste</h2>
-    <button class="bouton">A propos</button>
+    <div class="taille">
+        <h2>Bienvenue sur Italian Taste</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci velit qui totam dolor consectetur cumque? Atque illo nihil tempore! Deleniti aut voluptas amet delectus corrupti ipsa quasi, aliquam quidem?</p>
+        <button class="bouton">A propos</button>
+    </div>
+    
 </section>
 
 

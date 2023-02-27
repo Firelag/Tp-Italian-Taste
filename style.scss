@@ -47,18 +47,67 @@ body{
         padding-top: 10%;
         padding-bottom: 10%;
         background-color: $taupe;
+        .taille{
+            width: 80%;
+            margin: auto;
+
+            h2{
+                font-size: 2em;
+                margin-bottom: 5%;
+            }
+            p{
+                font-size: 1.5em;
+                margin-bottom: 5%;
+            }
+            .bouton{
+                font-size: 15px;
+                    padding: 10px 15px;
+                    border-radius: 20px;
+                    background-color: $Forest;
+                    color: black;
+                    border: 1px solid black;
+                    cursor: pointer;
+            }
+        }
+    }
+
+    .propos{
+        padding-top: 5%;
+        padding-bottom: 10%;
+        background-color: $taupe;
         h2{
+            text-align: center;
             font-size: 2em;
+            margin-bottom: 10%;
         }
-        .bouton{
-            font-size: 15px;
-                padding: 10px 15px;
-                border-radius: 20px;
-                background-color: $Forest;
-                color: black;
-                border: 1px solid black;
-                cursor: pointer;
+        .flex{
+            display: flex;
+            margin: auto;
+            width: 80%;
+
+            h3{
+                font-size: 1.8em;
+            }
+
+            p{
+                width: 60%;
+                font-size: 1.3em;
+            }
+            .bouton{
+                font-size: 15px;
+                    padding: 10px 15px;
+                    border-radius: 20px;
+                    background-color: $scarlet;
+                    color: black;
+                    border: 1px solid black;
+                    cursor: pointer;
+            }
         }
+
+        img{
+            width: 80%;
+        }
+
     }
 
     #blog{

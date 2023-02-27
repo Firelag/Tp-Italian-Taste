@@ -37,10 +37,19 @@ body .centre {
   padding-bottom: 10%;
   background-color: #D6CDCC;
 }
-body .centre h2 {
-  font-size: 2em;
+body .centre .taille {
+  width: 80%;
+  margin: auto;
 }
-body .centre .bouton {
+body .centre .taille h2 {
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+body .centre .taille p {
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+body .centre .taille .bouton {
   font-size: 15px;
   padding: 10px 15px;
   border-radius: 20px;
@@ -48,6 +57,40 @@ body .centre .bouton {
   color: black;
   border: 1px solid black;
   cursor: pointer;
+}
+body .propos {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #D6CDCC;
+}
+body .propos h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10%;
+}
+body .propos .flex {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+body .propos .flex h3 {
+  font-size: 1.8em;
+}
+body .propos .flex p {
+  width: 60%;
+  font-size: 1.3em;
+}
+body .propos .flex .bouton {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #9F2B25;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+body .propos img {
+  width: 80%;
 }
 body #blog {
   width: 80%;
