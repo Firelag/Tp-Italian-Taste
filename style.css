@@ -212,6 +212,7 @@ body .irecettes .recette {
   margin-top: 10%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 @media (max-width: 768px) {
   body .irecettes .recette {
@@ -233,6 +234,7 @@ body .irecettes .recette .ingred h3 {
 body .irecettes .recette .ingred p {
   width: 100%;
   font-size: 1.2em;
+  white-space: pre-line;
 }
 body #actu {
   width: 80%;
