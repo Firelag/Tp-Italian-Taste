@@ -12,11 +12,17 @@
 <header>
     <img src="http://localhost/ItalianTaste/wp-content/uploads/2023/02/1777015e11cf4a4d8ab93e96720491f7.png" alt="logo">
 <hr width="80%">
+<div id="myLinks">
 <?php
 wp_nav_menu(array(
 'menu' => 'Menu principal',
 'container' => 'nav'
 ));
-?>
+?> 
+  </div>
+
 <hr width="80%">
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </header>

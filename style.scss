@@ -12,6 +12,25 @@ body{
         
         text-align: center;
         margin-bottom: 5%;
+
+        .icon{
+            display: none;
+            @media (max-width: 768px){
+                    
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 40px;
+                margin-right: 6%;
+                color: black;
+            };
+        }
+        hr{
+            @media (max-width: 768px){
+                display: none;
+            };
+        }
         .menu-menu-1-container{
             width: 80%;
             margin: auto;
@@ -132,15 +151,34 @@ body{
            
         width: 80%;
         margin: auto;
+        h3{
+            font-size: 1.5em;
+            padding-top: 5%;
+        }
+        p{
+            
+            font-size: 1.2em;
+        }
         .recette{
             margin-top: 10%;
             display: flex;
             align-items: center;
+
+            
+
+            img{
+               width: 275px;
+               height: 183px; 
+            }
     
             .ingred{
                 
+                h3{
+                    font-size: 1.5em;
+                }
                 p{
                     width: 100%;
+                    font-size: 1.2em;
                 }
             }
         }
@@ -163,6 +201,7 @@ body{
             width: 80%;
             margin: auto;
             justify-content: space-between;
+            padding-bottom: 5%;
 
             .groupe{
                 display: flex;
@@ -172,6 +211,16 @@ body{
             
             .wp-block-contact-form-7-contact-form-selector{
                 font-size: 1.2em;
+            }
+
+            h3{
+                font-size: 2em;
+            }
+
+            .groupe{
+                p{
+                    font-size: 1.2em;
+                }
             }
             
         }

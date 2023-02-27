@@ -11,6 +11,25 @@ body header {
   text-align: center;
   margin-bottom: 5%;
 }
+body header .icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  body header .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 40px;
+    margin-right: 6%;
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  body header hr {
+    display: none;
+  }
+}
 body header .menu-menu-1-container {
   width: 80%;
   margin: auto;
@@ -107,13 +126,28 @@ body .irecettes {
   width: 80%;
   margin: auto;
 }
+body .irecettes h3 {
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+body .irecettes p {
+  font-size: 1.2em;
+}
 body .irecettes .recette {
   margin-top: 10%;
   display: flex;
   align-items: center;
 }
+body .irecettes .recette img {
+  width: 275px;
+  height: 183px;
+}
+body .irecettes .recette .ingred h3 {
+  font-size: 1.5em;
+}
 body .irecettes .recette .ingred p {
   width: 100%;
+  font-size: 1.2em;
 }
 body #actu {
   width: 80%;
@@ -130,6 +164,7 @@ body .contact .flex {
   width: 80%;
   margin: auto;
   justify-content: space-between;
+  padding-bottom: 5%;
 }
 body .contact .flex .groupe {
   display: flex;
@@ -137,6 +172,12 @@ body .contact .flex .groupe {
   justify-content: space-evenly;
 }
 body .contact .flex .wp-block-contact-form-7-contact-form-selector {
+  font-size: 1.2em;
+}
+body .contact .flex h3 {
+  font-size: 2em;
+}
+body .contact .flex .groupe p {
   font-size: 1.2em;
 }
 body footer {
