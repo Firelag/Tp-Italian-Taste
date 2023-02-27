@@ -16,6 +16,12 @@ body{
             text-align: initial;
         };
 
+        #myLinks{
+            @media (max-width: 768px){
+                display: none;
+            };
+        }
+
         .icon{
             display: none;
             @media (max-width: 768px){
@@ -41,7 +47,7 @@ body{
             @media (max-width: 768px){
                 display: block;
                 width: 100%;
-                
+                white-space: pre;
                 text-align: center;
             };
             

@@ -16,6 +16,11 @@ body header {
     text-align: initial;
   }
 }
+@media (max-width: 768px) {
+  body header #myLinks {
+    display: none;
+  }
+}
 body header .icon {
   display: none;
 }
@@ -44,6 +49,7 @@ body header .menu-menu-1-container {
   body header .menu-menu-1-container {
     display: block;
     width: 100%;
+    white-space: pre;
     text-align: center;
   }
 }
