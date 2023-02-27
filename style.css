@@ -11,6 +11,11 @@ body header {
   text-align: center;
   margin-bottom: 5%;
 }
+@media (max-width: 768px) {
+  body header {
+    text-align: initial;
+  }
+}
 body header .icon {
   display: none;
 }
@@ -19,10 +24,11 @@ body header .icon {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 75px;
     font-size: 40px;
     margin-right: 6%;
     color: black;
+    margin-right: 10%;
   }
 }
 @media (max-width: 768px) {
@@ -34,10 +40,22 @@ body header .menu-menu-1-container {
   width: 80%;
   margin: auto;
 }
+@media (max-width: 768px) {
+  body header .menu-menu-1-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 body header .menu-menu-1-container .menu {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  body header .menu-menu-1-container .menu {
+    display: block;
+  }
 }
 body header .menu-menu-1-container .menu .menu-item a {
   text-decoration: none;
@@ -64,9 +82,19 @@ body .centre .taille h2 {
   font-size: 2em;
   margin-bottom: 5%;
 }
+@media (max-width: 768px) {
+  body .centre .taille h2 {
+    margin-bottom: 25%;
+  }
+}
 body .centre .taille p {
   font-size: 1.5em;
   margin-bottom: 5%;
+}
+@media (max-width: 768px) {
+  body .centre .taille p {
+    margin-bottom: 20%;
+  }
 }
 body .centre .taille .bouton {
   font-size: 15px;
@@ -87,10 +115,20 @@ body .propos h2 {
   font-size: 2em;
   margin-bottom: 10%;
 }
+@media (max-width: 768px) {
+  body .propos h2 {
+    margin-bottom: 25%;
+  }
+}
 body .propos .flex {
   display: flex;
   margin: auto;
   width: 80%;
+}
+@media (max-width: 768px) {
+  body .propos .flex {
+    display: block;
+  }
 }
 body .propos .flex h3 {
   font-size: 1.8em;
@@ -98,6 +136,12 @@ body .propos .flex h3 {
 body .propos .flex p {
   width: 60%;
   font-size: 1.3em;
+}
+@media (max-width: 768px) {
+  body .propos .flex p {
+    width: 100%;
+    margin-bottom: 15%;
+  }
 }
 body .propos .flex .bouton {
   font-size: 15px;
@@ -108,8 +152,23 @@ body .propos .flex .bouton {
   border: 1px solid black;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  body .propos .flex .bouton {
+    margin-bottom: 20%;
+  }
+}
 body .propos img {
   width: 80%;
+}
+@media (max-width: 768px) {
+  body .propos img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body .propos img {
+    width: 90%;
+  }
 }
 body #blog {
   width: 80%;
@@ -121,6 +180,16 @@ body #blog .container #allarticles .bgimg {
   width: 50%;
   background-size: cover;
   background-position: center;
+}
+@media (max-width: 768px) {
+  body #blog .container #allarticles .bgimg {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body #blog .container #allarticles .bgimg {
+    width: 70%;
+  }
 }
 body .irecettes {
   width: 80%;
@@ -138,9 +207,19 @@ body .irecettes .recette {
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) {
+  body .irecettes .recette {
+    display: block;
+  }
+}
 body .irecettes .recette img {
   width: 275px;
   height: 183px;
+}
+@media (max-width: 768px) {
+  body .irecettes .recette img {
+    margin-top: 30%;
+  }
 }
 body .irecettes .recette .ingred h3 {
   font-size: 1.5em;
@@ -166,19 +245,40 @@ body .contact .flex {
   justify-content: space-between;
   padding-bottom: 5%;
 }
+@media (max-width: 768px) {
+  body .contact .flex {
+    display: block;
+  }
+}
 body .contact .flex .groupe {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  body .contact .flex .groupe {
+    justify-content: flex-start;
+  }
+}
+body .contact .flex .groupe p {
+  font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  body .contact .flex .groupe p {
+    margin-left: 10%;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  body .contact .flex .groupe i {
+    font-size: 1.5em;
+  }
 }
 body .contact .flex .wp-block-contact-form-7-contact-form-selector {
   font-size: 1.2em;
 }
 body .contact .flex h3 {
   font-size: 2em;
-}
-body .contact .flex .groupe p {
-  font-size: 1.2em;
 }
 body footer {
   width: 80%;
@@ -189,10 +289,35 @@ body footer .flex {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 768px) {
+  body footer .flex {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  body footer .flex img {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  body footer .flex .res p {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 1.3em;
+  }
+}
 body footer .flex .res .logo {
   display: flex;
   justify-content: space-evenly;
   font-size: 2em;
+}
+@media (max-width: 768px) {
+  body footer .flex .res .logo {
+    margin-bottom: 15%;
+  }
 }
 body footer .flex .res .logo i {
   cursor: pointer;

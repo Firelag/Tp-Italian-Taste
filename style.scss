@@ -12,6 +12,9 @@ body{
         
         text-align: center;
         margin-bottom: 5%;
+        @media (max-width: 768px){
+            text-align: initial;
+        };
 
         .icon{
             display: none;
@@ -20,10 +23,11 @@ body{
                 display: block;
                 position: absolute;
                 right: 0;
-                top: 0;
+                top: 75px;
                 font-size: 40px;
                 margin-right: 6%;
                 color: black;
+                margin-right: 10%;
             };
         }
         hr{
@@ -34,11 +38,20 @@ body{
         .menu-menu-1-container{
             width: 80%;
             margin: auto;
+            @media (max-width: 768px){
+                display: block;
+                width: 100%;
+                
+                text-align: center;
+            };
             
             .menu{
                 display: flex;
                 list-style: none;
                 justify-content: space-evenly;
+                @media (max-width: 768px){
+                    display: block;
+                };
 
                 .menu-item{
                     a{
@@ -73,10 +86,16 @@ body{
             h2{
                 font-size: 2em;
                 margin-bottom: 5%;
+                @media (max-width: 768px){
+                    margin-bottom: 25%;
+                };
             }
             p{
                 font-size: 1.5em;
                 margin-bottom: 5%;
+                @media (max-width: 768px){
+                    margin-bottom: 20%;
+                };
             }
             .bouton{
                 font-size: 15px;
@@ -98,11 +117,17 @@ body{
             text-align: center;
             font-size: 2em;
             margin-bottom: 10%;
+            @media (max-width: 768px){
+                margin-bottom: 25%;
+            };
         }
         .flex{
             display: flex;
             margin: auto;
             width: 80%;
+            @media (max-width: 768px){
+                display: block;
+            };
 
             h3{
                 font-size: 1.8em;
@@ -111,6 +136,10 @@ body{
             p{
                 width: 60%;
                 font-size: 1.3em;
+                @media (max-width: 768px){
+                    width: 100%;
+                    margin-bottom: 15%;
+                };
             }
             .bouton{
                 font-size: 15px;
@@ -120,11 +149,20 @@ body{
                     color: black;
                     border: 1px solid black;
                     cursor: pointer;
+                    @media (max-width: 768px){
+                        margin-bottom: 20%;
+                    };
             }
         }
 
         img{
             width: 80%;
+            @media (max-width: 768px){
+                width: 100%;
+            };
+            @media (max-width: 992px){
+                width: 90%;
+            };
         }
 
     }
@@ -140,6 +178,12 @@ body{
                     width: 50%;
                     background-size: cover;
                     background-position: center;
+                    @media (max-width: 768px){
+                        width: 100%;
+                    };
+                    @media (max-width: 992px){
+                        width: 70%;
+                    };
                    
                 }
             }
@@ -158,17 +202,24 @@ body{
         p{
             
             font-size: 1.2em;
+            
         }
         .recette{
             margin-top: 10%;
             display: flex;
             align-items: center;
+            @media (max-width: 768px){
+                display: block;
+            };
 
             
 
             img{
                width: 275px;
                height: 183px; 
+               @media (max-width: 768px){
+                margin-top: 30%;
+                };
             }
     
             .ingred{
@@ -202,11 +253,29 @@ body{
             margin: auto;
             justify-content: space-between;
             padding-bottom: 5%;
+            @media (max-width: 768px){
+                display: block;
+            };
 
             .groupe{
                 display: flex;
                 align-items: center;
-                justify-content: space-evenly
+                justify-content: space-evenly;
+                @media (max-width: 768px){
+                    justify-content: flex-start;
+                };
+                p{
+                    font-size: 1.2em;
+                    @media (max-width: 768px){
+                        margin-left: 10%;
+                        font-size: 1.5em;
+                    };
+                }
+                i{
+                    @media (max-width: 768px){
+                        font-size: 1.5em;
+                    };
+                }
             }
             
             .wp-block-contact-form-7-contact-form-selector{
@@ -217,11 +286,7 @@ body{
                 font-size: 2em;
             }
 
-            .groupe{
-                p{
-                    font-size: 1.2em;
-                }
-            }
+           
             
         }
     }
@@ -235,13 +300,35 @@ body{
         .flex{
         display: flex;
         align-items: center;
+        @media (max-width: 768px){
+            display: block;
+        };
         
         justify-content: space-between;
+
+        img{
+            @media (max-width: 768px){
+                width: 80%;
+                margin: auto;
+                justify-content: center;
+                display: flex;
+            };
+        }
         .res{
+            p{
+                @media (max-width: 768px){
+                    text-align: center;
+                    margin-bottom: 10%;
+                    font-size: 1.3em;
+                };
+            }
             .logo{
                 display: flex;
                 justify-content: space-evenly;
                 font-size: 2em;
+                @media (max-width: 768px){
+                    margin-bottom: 15%;
+                };
                 i{
                     cursor: pointer;
                 }
